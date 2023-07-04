@@ -84,7 +84,7 @@ export default function App() {
           </div>
         </div>
         <div id="images" className="hidden md:flex">
-          <img src="https://ibb.co/QdSSzW6" alt="cris_image" className="rounded-lg" />
+          <img src="https://i.ibb.co/Zm44tQh/cris.jpg" alt="cris_image" className="rounded-lg" />
         </div>
       </section>
 
