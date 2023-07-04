@@ -12,27 +12,27 @@ export default function App() {
     {
       id: "001",
       name: "doger_image",
-      linked: "../public/ideren.001.jpg"
+      linked: "./images/ideren.001.jpg"
     },
     {
       id: "002",
       name: "doger_image",
-      linked: "../public/ideren.002.jpg"
+      linked: "./images/ideren.002.jpg"
     },
     {
       id: "003",
       name: "cater_image",
-      linked: "../public/ideren.003.jpg"
+      linked: "./images/ideren.003.jpg"
     },
     {
       id: "004",
       name: "doger_image",
-      linked: "../public/ideren.004.jpg"
+      linked: "./images/ideren.004.jpg"
     },
     {
       id: "005",
       name: "cater_image",
-      linked: "../public/ideren.005.jpg"
+      linked: "./images/ideren.005.jpg"
     }
   ]
 
@@ -84,7 +84,7 @@ export default function App() {
           </div>
         </div>
         <div id="images" className="hidden md:flex">
-          <img src="../public/cris.JPG" alt="cris_image" className="rounded-lg" />
+          <img src="./images/cris.JPG" alt="cris_image" className="rounded-lg" />
         </div>
       </section>
 
