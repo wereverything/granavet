@@ -147,29 +147,31 @@ export default function App() {
 
       {/* CONTACTO */}
       <footer id="contact" className="mt-20 px-4">
-        <h6 id="title" className="uppercase font-montserrat font-normal text-lime-400 text-sm dark:text-lime-100">GranaVet</h6>
-        <span className="text-xl font-semibold font-poppins text-lime-500 text-center dark:text-lime-200">¿Necesitas contactarnos?</span>
-        <div id="phone-numbers" className="flex flex-col gap-3 [&>span]:flex [&>span]:flex-row [&>span]:items-center [&>span]:gap-3 mt-7 text-lime-400 [&>span]:font-poppins [&>span]:text-sm dark:text-lime-100">
-          <h6 className="font-montserrat text-sm">Hazlo por telefono</h6>
-          <span id="number-one">
-            <BiPhone />
-            <a href="tel:22738743">2273 8743</a>
-          </span>
-          <span id="number-two">
-            <BiPhone />
-            <a href="tel:86664335">8666 4335</a>
-          </span>
-          <span id="number-three">
-            <BiPhone />
-            <a href="tel:40343370">4034 3370</a>
-          </span>
-        </div>
-        <div id="direccion" className="flex flex-col gap-3 [&>span]:flex [&>span]:flex-row [&>span]:items-center [&>span]:gap-3 mt-7 text-lime-400 dark:text-lime-100 [&>span]:font-poppins [&>span]:text-sm">
-          <h6 className="font-montserrat text-sm">Dirígete hacia nosotros</h6>
-          <span id="number-one">
-            <FiMapPin />
-            <span>0000, San José, Granadilla</span>
-          </span>
+        <div id="container-contact" className="grid grid-cols-1 sm:grid sm:grid-cols-3 sm:justify-items-center">
+          <div id="oner"><h6 id="title" className="uppercase font-montserrat font-normal text-lime-400 text-sm dark:text-lime-100">GranaVet</h6>
+            <span className="text-xl font-semibold font-poppins text-lime-500 text-center dark:text-lime-200">¿Necesitas contactarnos?</span></div>
+          <div id="phone-numbers" className="flex flex-col gap-3 [&>span]:flex [&>span]:flex-row [&>span]:items-center [&>span]:gap-3 mt-7 text-lime-400 [&>span]:font-poppins [&>span]:text-sm dark:text-lime-100">
+            <h6 className="font-montserrat text-sm">Hazlo por telefono</h6>
+            <span id="number-one">
+              <BiPhone />
+              <a href="tel:22738743">2273 8743</a>
+            </span>
+            <span id="number-two">
+              <BiPhone />
+              <a href="tel:86664335">8666 4335</a>
+            </span>
+            <span id="number-three">
+              <BiPhone />
+              <a href="tel:40343370">4034 3370</a>
+            </span>
+          </div>
+          <div id="direccion" className="flex flex-col gap-3 [&>span]:flex [&>span]:flex-row [&>span]:items-center [&>span]:gap-3 mt-7 text-lime-400 dark:text-lime-100 [&>span]:font-poppins [&>span]:text-sm">
+            <h6 className="font-montserrat text-sm">Dirígete hacia nosotros</h6>
+            <span id="number-one">
+              <FiMapPin />
+              <span>0000, San José, Granadilla</span>
+            </span>
+          </div>
         </div>
         <div id="copyright" className="mt-20 uppercase font-montserrat font-normal text-lime-400 text-sm dark:text-lime-100 text-center">
           &copy;GranaVet - Derechos reservados 2023
