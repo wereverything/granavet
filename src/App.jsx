@@ -12,7 +12,7 @@ export default function App() {
     {
       id: "001",
       name: "doger_image",
-      linked: "./images/ideren.001.jpg"
+      linked: "../public/ideren.001.jpg"
     },
     {
       id: "002",
